@@ -1,12 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Courgette', cursive;
 }
 /* header css */
 #header {
   height: 100vh;
-  background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/background222.jpg);
+  background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/background1010.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -27,7 +27,9 @@ body {
   color: #fff;
   font-weight: bold;
   margin: 10px;
+  font-family: 'Patrick Hand', cursive;
 }
 .user-box p{
   color: #fff;
+  font-family: 'Patrick Hand', cursive;
 }
