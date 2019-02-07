@@ -102,7 +102,7 @@ body {
 }
 .progress-bar {
   border-radius: 16px;
-  background-color: #2980b9!important;
+  background-color: #555!important;
 }
 /*  resume */
 
@@ -116,10 +116,12 @@ body {
   margin-bottom: 50px;
 }
 
-.timeline { list-style-type: none;
-position: relative;}
+.timeline {
+  list-style-type: none;
+  position: relative;
+}
 
-.timeline::before{
+.timeline:before{
   content: :'';
   background: #555;
   display: inline-block;
@@ -135,4 +137,15 @@ position: relative;}
   margin-bottom: 20px;
   margin-left: 20px;
   background: #fff;
+}
+.timeline li h4{
+  background-color: #000;
+  padding: 5px 0 5px 20px;
+  column-rule-color: #fff;
+  font-size: 15px;
+}
+
+.timeline li h4 span {
+  font-weight: bold;
+  color: #ccc;
 }
