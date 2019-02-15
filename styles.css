@@ -6,7 +6,7 @@ body {
 /* header css */
 #header {
   height: 100vh;
-  background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/background1010.jpg);
+  background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(images/header-background1.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -33,7 +33,7 @@ body {
   color: #fff;
   font-family: 'Patrick Hand', cursive;
 }
-
+/*
 .scroll-bar{
   bottom: 30px;
   position: absolute;
@@ -56,12 +56,12 @@ body {
 @keyframes mover{
   0%{transform: translateY(0);}
   100%{transform: translateY(10px);}
-}
+} */
 /* about css */
 
 .about {
   padding-top: 100px;
-  margin: -bottom: 130px;
+  margin: -bottom: -160px;
 }
 
 .profile-img {
@@ -71,6 +71,7 @@ body {
 .nav-bar{
   top: 0;
   z-index: 2;
+  position: sticky;
 }
 .navbar{
   background-color: #000;
@@ -90,7 +91,6 @@ body {
 .navbar-nav{
   float: right;
   text-align: right;
-  position: sticky;;
 }
 .nav-link{
   color: #fff !important;
@@ -213,7 +213,7 @@ body {
 
 .contact{
   padding-top: 50px;
-  background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/footer-background.jpg);
+  background:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(images/footer11.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -280,7 +280,7 @@ body {
   padding-left: 12px;
   padding-top: 6px;
   margin-top: 5px;
-  color: #fff;
+  color: #3498db;
   background: #000;
 }
 .social-icons ul li:hover{
